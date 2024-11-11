@@ -1,0 +1,16 @@
+class book{
+constructor(titvle,author,isbn,availablecopies){
+this.title = title;
+this.author = author;
+this._validateISBN(isbn);
+this._availableCopies = availableCopies;
+}
+get acailableCopies(){
+return this.availableCopies  copies;
+}
+set availableCopies(copies){
+if (copies>=0) this._avilableCopies =copies;
+else console.log("Copies cant be negative");
+}
+validateISBN(isbn){
+let regex 
